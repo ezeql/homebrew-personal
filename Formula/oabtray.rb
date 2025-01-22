@@ -1,8 +1,8 @@
 class Oabtray < Formula
   desc "Bitcoin price tracker for macOS menu bar with ALABA_FACTOR"
   homepage "https://github.com/ezeql/oabtray"
-  url "https://github.com/ezeql/oabtray/archive/refs/tags/v0.1.7.tar.gz"
-  sha256 "a02a1a9e6ccdff13aea153c96742d653b3f2f791a4f08b5e73cd01f67ea78c0a"
+  url "https://github.com/ezeql/oabtray/archive/refs/tags/v0.1.8.tar.gz"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
   license "MIT"
 
   depends_on "go" => :build
