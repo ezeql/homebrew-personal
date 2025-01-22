@@ -8,9 +8,10 @@ class Oabtray < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", 
-           "-ldflags=-s -w " + 
-           "-X main.VERSION=v0.1.9 " +
+    mkdir_p bin
+    system "go", "build",
+           "-ldflags=-s -w " +
+           "-X main.VERSION=v0.1.9",
            "-o", bin/"oabtray"
   end
 
